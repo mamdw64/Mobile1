@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                   myNavigation()
                 }
             }
         }
@@ -30,17 +30,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
+fun myNavigation() {
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    BottonNavigTheme {
-        Greeting("Android")
-    }
-}
+
+        }

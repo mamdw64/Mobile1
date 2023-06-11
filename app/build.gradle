@@ -50,6 +50,7 @@ dependencies {
     implementation 'androidx.wear.tiles:tiles-material:1.1.0-alpha04'
     implementation 'androidx.core:core-ktx:+'
     implementation 'androidx.core:core-ktx:+'
+    implementation 'androidx.core:core-ktx:+'
     def nav_version = "2.5.3"
 
     // Java language implementation
